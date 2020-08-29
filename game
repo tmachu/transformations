@@ -1,0 +1,134 @@
+# make this file, called:
+# mygame.py
+
+# start by setting up the scene
+# make this file, called:
+# mygame.py
+
+print("Hello adventurer, welcome to my world.")
+print("Please be aware that this world does not reflect reality.")
+print("This world is purely imaginary and contains buildings that have imaginary properties.")
+print("You have been warned.")
+
+accepted_quest = input("Would you like to EXPLORE? YES/NO ")
+
+if accepted_quest == "YES":
+    print("Great.")
+else:
+    print("ADVENTURE TERMINATED")
+    exit()
+
+print("Imagine a country. This country is called a vector space.")
+input("Once you have imagined it, press ANY KEY TO PROCEED!!")
+print("This country has buildings. Each building is called a vector.")
+print("You see some writing on the entrance to the country.")
+axiom_definition = input("Do you EXAMINE the writing or ENTER country? ")
+
+if axiom_definition == "EXAMINE":
+    print("You walk closer to the writing and see the following:")
+    print("RULES ON HOW THE BUILDINGS IN THIS COUNTRY BEHAVE")
+    print("1. Buildings can be added or subtracted from each other")
+    print("2. Buildings can be scaled")
+    print("3. More secret rules of buildings to be unlocked later (axioms)")
+else:
+    print("You observe that the buildings in the country (vector space) behave strangely")
+    print("Buildings seem to attach to other buildings, like addition")
+    print("Buildings seem to take away certain parts of other buildings, like subtraction")
+    print("Buildings can also magnify and and shrink and scale themselves, like they are being multiplied")
+    print("As you keep walking...")
+    print("...you observe that there are many behaviours and properties of these buildings that you don't know about.")
+
+input("You observe a city (subspace). ENTER to enter")
+print("As you visit many cities (subspaces),")
+print("you realise they are a way of grouping buildings within the country.")
+print("Buildings in cities have the general properties of all buildings in a country")
+print("But they have their own sub-culture as well with their own properties")
+
+enter_playspace = input("Would you like to play with the buildings? YES/NO ")
+
+if enter_playspace == "YES":
+    print("The buildings want to play with you too.")
+else:
+    print("I think you should try. It's good to make new friends.")
+
+print("You have entered the building playspace")
+print("In this room, you see a machine")
+input("APPROACH machine")
+
+print("In this room, you put buildings into a machine.")
+print("Some buildings can be made out of others if combined  in a specific way (linear combination) via the machine")
+
+instruction_manual = input("Put buildings into machine PUT/DO NOT PUT")
+
+if instruction_manual =="PUT":
+    print("The machine churns and churns")
+    print("The machine starts creating all possible buildings (span) that can be made from the set of buildings you inputted")
+    print("The room is filled with new buildings")
+    input("You look around. KEEP WALKING ")
+    print("A snake comes up to you.")
+    print("Put more buildings into the machine, it whispers")
+    print("You decide to put more buildings into the machine")
+    print("Possessed you put more buildings into the machine")
+    print("The machine starts spouting out new buildings that it has already built previously!")
+    print("This means that the extra buildings you put in are redundant! (linearly dependent)")
+else:
+    print("You imagine all the possible buildings (span) that could have been made and become overwhelmed")
+    print("Maybe it's best that you didn't put the buildings into the machine")
+    print("This world may be too exciting for you and you might not have what it takes to live in this world")
+    print("ADVENTURE TERMINATED")
+    exit()
+
+input("A homeless man appears and decides he wants to live in a country")
+input("He wonders if the set of buildings he has, inputted into the machine, is capable of building the country in the")
+print("other room.")
+print("A set of buildings, inputted into the machine, ")
+print("capable of making the machine spit out an entire country is called a basis")
+
+input("Enter the homeless man's buildings into the machine ENTRE VOUS")
+print("The buildings you entered were capable of building the country")
+print("Sometimes there aren't enough buildings or there aren't the right buildings to build the country")
+print("The number of buildings it takes to be inputted into the machine to build the country is called the country's")
+print("DIMENSION")
+print("The man now lives in the country of buildings and is very happy")
+
+input("Do you want to build a country like the homeless man? YES")
+print("A set of buildings that, when inputted into the machine,")
+print(" is capable of building the country is called the country's BASIS")
+
+print("A GHOST APPEARS!")
+print("This is a rare object! A ghostly abandoned building appears.")
+zero_vector = input("Do you capture it? YES/NO ")
+
+if zero_vector == "YES":
+    print("The ghost building (zero vector) introduces itself to you")
+    print("Hello! says the ghost building (zero vector)")
+    print("I am the representation of nothingness It says.")
+    print("When I try to add myself to other buildings, the addition results in the original building, I have no impact")
+    print("It is lonely have no impact, do you understand? I am the representation of disappearance")
+else:
+    print("You observe the ghost building (zero vector) behaviour as it interacts with other buildings")
+    print("You see it try to add itself to other buildings with no effect")
+    print("It behaves as though it is the personification of disappearance")
+    print("It seems to have no effect whatsoever on the other buildings")
+
+input("PRESS ANY KEY TO ENTER ANOTHER ROOM")
+print("You have entered a new room")
+print("In this room, each building transforms into a new building when you turn off the lights.")
+print("If all the buildings transformed follow certain rules in relation to the pre-transformed buildings")
+print("then the transformation is called a linear transformation")
+
+input("Turn off lights to witness a transformation occur")
+print("THE ROOM GOES DARK!")
+print("You feel the ground shake and rumble and hear the buildings making whooshing sounds")
+
+input("To turn on the lights PRESS ENTER")
+print("You walk around and notice that some buildings have disappeared after transformation")
+print("They have become ghosts of buildings.")
+print("The set of buildings before transformation that were going to disappear are called KERNEL")
+
+
+
+
+
+
+
